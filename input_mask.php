@@ -12,6 +12,9 @@ $('#phone-number', '#example-form')
 
 		// Auto-format- do not expose the mask as the user begins to type
 		if (key !== 8 && key !== 9) {
+			if ($phone.val().length === 0) {
+				$phone.val($phone.val() + '(');
+			}
 			if ($phone.val().length === 4) {
 				$phone.val($phone.val() + ')');
 			}
