@@ -2,6 +2,7 @@
     <input id="phone-number" name="phone-number" type="text" maxlength="16" placeholder="(XXX) XXX-XXXX" /><br /><br />
 </form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <script>
 $('#phone-number', '#example-form')
 
